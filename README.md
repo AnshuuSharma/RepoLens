@@ -26,3 +26,18 @@ RepoLens is a web app that analyzes GitHub repositories and provides:
    ```bash
    git clone <your-github-repo-url>
    cd RepoLens
+2. Create a virtual environment and activate it:
+     ```bash
+      python -m venv venv
+      source venv/bin/activate    # Linux/Mac
+      venv\Scripts\activate       # windows
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+4. Create a .env file in the root directory and add your HuggingFace token (optional):
+   ```bash
+   HF_TOKEN=your_huggingface_api_token
+
+5. Run the app:
+  ```bash
+  python app.py
