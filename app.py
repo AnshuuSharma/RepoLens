@@ -153,7 +153,7 @@ RESULT_HTML = """
         <li>{{ r }}</li>
       {% endfor %}
     </ul>
-    <a href="/">Analyze another repo</a>
+    <a href="/" color="white";>Analyze another repo</a>
   </div>
 </body>
 </html>
@@ -376,3 +376,4 @@ def analyze():
 if __name__ == "__main__":
     print("RepoLens running on http://localhost:8000")
     app.run(port=8000, debug=True)
+
